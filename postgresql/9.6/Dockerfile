@@ -4,6 +4,8 @@ MAINTAINER Stanly Xiang <stanly.sxiang@gmail.com>
 
 USER root
 
+RUN yum -y install sudo
+
 RUN useradd postgres
 
 RUN chmod +w /etc/sudoers
