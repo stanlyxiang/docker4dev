@@ -26,6 +26,4 @@ USER postgres
 
 RUN sudo service postgresql initdb
 
-RUN sudo service postgresql start
-
 WORKDIR /home/postgres
