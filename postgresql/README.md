@@ -5,11 +5,14 @@
 A PostgreSQL 9.6 image on Centos:6 server. 
 
 There is a postgres user have root privilage.You can start the service using 
-	sudo service postgresql start
+	`sudo service postgresql start`
 when launch the image. Then you can use PostgreSQL 9.6 .It was installed via rpm.
+
+You can pull the docker image using:
+	`docker pull akira7/docker4dev:postgresql96`
 
 ## latest
 
 A latest PostgreSQL image on Centos:6 server.
 
-This time build the PostgreSQL`s latest code and install them. It`s always the latest version.
+This time build the PostgreSQL's latest code and install them. It's always the latest version.
